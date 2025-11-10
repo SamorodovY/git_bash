@@ -1,0 +1,30 @@
+pwd
+mkdir test1
+cd C:\Users\samya\test1
+touch 1 2 3
+ls
+cd
+mkdir test2
+rmdir test2
+cd /c/Users/samya/test1
+rm 2
+cd
+mkdir test3
+cd /c/Users/samya/test3
+touch 1 2
+cd
+rm -r test3
+cd
+mkdir test4
+cd /c/Users/samya/test1
+mv 1 3 /c/Users/samya/test4
+cd /c/Users/samya/test4
+echo "line" >> 1
+echo "line" >> 1
+echo "line" >> 1
+cat 1
+echo "line" >> 3
+echo "line" >> 3
+echo "line" >> 3
+cat 1 3
+sed -i 's/.*/newline/g'
